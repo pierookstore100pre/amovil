@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- ============================================ -->
+    <!-- ÍCONOS EN EL TOOLBAR (showAsAction = ifRoom) -->
+    <!-- ============================================ -->
+
+    <item
+        android:id="@+id/action_editar"
+        android:title="Editar"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_eliminar"
+        android:title="Eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom" />
+
+    <!-- ============================================ -->
+    <!-- OPCIONES DENTRO DEL MENÚ ⋮ (showAsAction = never) -->
+    <!-- ============================================ -->
+
+    <item
+        android:id="@+id/action_compartir"
+        android:title="Compartir"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_generar_pdf"
+        android:title="Generar PDF"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_imprimir"
+        android:title="Imprimir"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_enviar"
+        android:title="Enviar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_pagada"
+        android:title="Marcar como pagada"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_mi_cuenta"
+        android:title="Mi cuenta"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mis_pedidos"
+        android:title="Mis pedidos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mis_pagos"
+        android:title="Mis pagos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_configuracion"
+        android:title="Configuración"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_salir"
+        android:title="Salir"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MisPedidosActivity">
+
+    <!-- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Mis Pedidos"
+        app:titleTextColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- SECCIÓN: Pedidos en curso -->
+    <TextView
+        android:id="@+id/tvTituloEnCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚚 Pedidos en curso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/my_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/tvPedidosEnCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Leche Gloria 1L  →  Llega mañana\n• Arroz Costeño 5kg  →  En camino\n• Aceite Primor 1L  →  Llega en 2 días"
+        android:textSize="15sp"
+        android:lineSpacingExtra="6dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloEnCurso"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp" />
+
+    <!-- SECCIÓN: Carrito -->
+    <TextView
+        android:id="@+id/tvTituloCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛒 En mi carrito"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/tvPedidosEnCurso"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/tvCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Pan Francés x 10  →  S/ 5.00\n• Mantequilla 200g  →  S/ 8.50\n• Total: S/ 13.50"
+        android:textSize="15sp"
+        android:lineSpacingExtra="6dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloCarrito"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp" />
+
+    <!-- SECCIÓN: Historial -->
+    <TextView
+        android:id="@+id/tvTituloHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📦 Historial de compras"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/tvCarrito"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/tvHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Pedido #001  →  10/10/2026  →  S/ 45.90\n• Pedido #002  →  08/10/2026  →  S/ 120.00\n• Pedido #003  →  05/10/2026  →  S/ 32.50"
+        android:textSize="15sp"
+        android:lineSpacingExtra="6dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloHistorial"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

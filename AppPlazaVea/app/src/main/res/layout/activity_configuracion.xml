@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfiguracionActivity">
+
+    <!-- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Configuración"
+        app:titleTextColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ======================================== -->
+    <!-- SECCIÓN: Notificaciones                 -->
+    <!-- ======================================== -->
+    <TextView
+        android:id="@+id/tvLabelNotificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔔 Notificaciones"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/my_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp" />
+
+    <Switch
+        android:id="@+id/swNotificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintTop_toTopOf="@id/tvLabelNotificaciones"
+        app:layout_constraintBottom_toBottomOf="@id/tvLabelNotificaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp" />
+
+    <!-- ======================================== -->
+    <!-- SECCIÓN: Modo oscuro                    -->
+    <!-- ======================================== -->
+    <TextView
+        android:id="@+id/tvLabelModoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌙 Modo oscuro"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelNotificaciones"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp" />
+
+    <Switch
+        android:id="@+id/swModoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        app:layout_constraintTop_toTopOf="@id/tvLabelModoOscuro"
+        app:layout_constraintBottom_toBottomOf="@id/tvLabelModoOscuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp" />
+
+    <!-- ======================================== -->
+    <!-- SECCIÓN: Idioma                         -->
+    <!-- ======================================== -->
+    <TextView
+        android:id="@+id/tvLabelIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌐 Idioma"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelModoOscuro"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/tvIdiomaActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Español"
+        android:textSize="16sp"
+        android:textColor="#3F51B5"
+        app:layout_constraintTop_toTopOf="@id/tvLabelIdioma"
+        app:layout_constraintBottom_toBottomOf="@id/tvLabelIdioma"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp" />
+
+    <!-- ======================================== -->
+    <!-- SECCIÓN: Cerrar sesión                  -->
+    <!-- ======================================== -->
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#E53935"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelIdioma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
