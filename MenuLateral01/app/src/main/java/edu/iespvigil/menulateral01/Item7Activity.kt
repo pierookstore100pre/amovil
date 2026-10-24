@@ -7,9 +7,9 @@ class Item7Activity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_item1)
+        setContentView(R.layout.activity_item7)
 
         setupDrawer()
-        supportActionBar?.title = "Perfil"
+        supportActionBar?.title = "Ayuda"
     }
 }

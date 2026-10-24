@@ -49,29 +49,29 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
             }
         }
             R.id.nav_item_two -> {
-                if (this !is Item1Activity) {
-                    val intent = Intent(this, Item1Activity::class.java)
+                if (this !is Item2Activity) {
+                    val intent = Intent(this, Item2Activity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                     startActivity(intent)
                 }
             }
             R.id.nav_item_three -> {
-                if (this !is Item1Activity) {
-                    val intent = Intent(this, Item1Activity::class.java)
+                if (this !is Item3Activity) {
+                    val intent = Intent(this, Item3Activity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                     startActivity(intent)
                 }
             }
             R.id.nav_item_six -> {
-                if (this !is Item1Activity) {
-                    val intent = Intent(this, Item1Activity::class.java)
+                if (this !is Item6Activity) {
+                    val intent = Intent(this, Item6Activity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                     startActivity(intent)
                 }
             }
             R.id.nav_item_seven -> {
-                if (this !is Item1Activity) {
-                    val intent = Intent(this, Item1Activity::class.java)
+                if (this !is Item7Activity) {
+                    val intent = Intent(this, Item7Activity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                     startActivity(intent)
                 }
