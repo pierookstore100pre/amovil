@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Menu lateral</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+
+    <!-- Nuevos textos para el menú -->
+    <string name="menu_cursos">Cursos</string>
+    <string name="menu_notas">Notas</string>
+    <string name="menu_horario">Horario</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_seccion_principal">Principal</string>
+</resources>
