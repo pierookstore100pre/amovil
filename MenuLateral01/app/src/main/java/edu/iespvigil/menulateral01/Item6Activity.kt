@@ -10,6 +10,6 @@ class Item6Activity : BaseActivity() {
         setContentView(R.layout.activity_item1)
 
         setupDrawer()
-        supportActionBar?.title = "Item 6"
+        supportActionBar?.title = "Ayuda"
     }
 }
