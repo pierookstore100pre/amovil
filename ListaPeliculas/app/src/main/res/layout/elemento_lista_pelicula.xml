@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground"> <!-- Del paso 41 -->
+
+    <ImageView
+        android:id="@+id/elpIvPelicula"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="ex_maquina.jpg" /> <!-- Cambia por una de tus imágenes -->
+
+    <TextView
+        android:id="@+id/elpTvTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/elpIvPelicula"
+        app:layout_constraintTop_toTopOf="@+id/elpIvPelicula"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/elpTvGenero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Género"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/elpTvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/elpTvTitulo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RatingBar
+        android:id="@+id/elpRbCalificacion"
+        style="@style/estiloCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="0.1"
+        app:layout_constraintStart_toStartOf="@+id/elpTvTitulo"
+        app:layout_constraintBottom_toBottomOf="@+id/elpIvPelicula" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -5,30 +5,71 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Item1Activity"
+    tools:context=".Item2Activity"
     tools:openDrawer="start">
 
-    <!-- Incluimos la barra superior (Toolbar) -->
-    <include
-        layout="@layout/app_bar_main"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
 
-    <!-- Aquí agregamos un texto para dar la bienvenida a la pantalla -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Bienvenido a Item 2"
-        android:textSize="24sp" />
+        <include layout="@layout/app_bar_main" />
 
-    <!-- El menú lateral (NavigationView) -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F5F5"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mis Notas del Semestre"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp" app:cardElevation="4dp">
+                    <TextView
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:padding="16dp" android:text="📱 Apps Android: 18/20"
+                        android:textSize="18sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp" app:cardElevation="4dp">
+                    <TextView
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:padding="16dp" android:text="☕ POO: 16/20"
+                        android:textSize="18sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp" app:cardElevation="4dp">
+                    <TextView
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:padding="16dp" android:text="🗄️ Base de Datos: 19/20"
+                        android:textSize="18sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
-
+        android:id="@+id/nav_view" android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_gravity="start" app:headerLayout="@layout/nav_header_main" app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
