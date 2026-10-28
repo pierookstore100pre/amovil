@@ -15,7 +15,9 @@ class VisorImagen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_visor_imagen)
 
-
+        val pelicula = intent.getSerializableExtra("pel") as Pelicula
+        val cPelicula = findViewById<ImageView>(R.id.avilvPelicula)
+        cPelicula.setImageResource(pelicula.idImagen)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
