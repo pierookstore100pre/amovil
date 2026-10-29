@@ -18,12 +18,12 @@ class MainActivity : AppCompatActivity() {
     private fun generarDatosPrueba(): ArrayList<Pelicula> {
         var lista = ArrayList<Pelicula>()
         // Asegúrate de que los nombres R.drawable.xxx coincidan con tus imágenes
-        lista.add(Pelicula(R.drawable.ex_maquina, "Apex", "Christopher Nolan", "Ciencia ficción", 4.3, 169, "2014"))
-        lista.add(Pelicula(R.drawable.extraordinario, "Dhamaka", "Guillermo del Toro", "Ciencia ficción", 3.65, 123, "2015"))
-        lista.add(Pelicula(R.drawable.forma_agua, "Garota", "Stephen Chbosky", "Drama", 4.0, 113, "2017"))
-        lista.add(Pelicula(R.drawable.interestelar, "Shang Chi", "Denis Villeneuve", "Ciencia ficción", 3.95, 116, "2021"))
-        lista.add(Pelicula(R.drawable.jumanji, "Venom", "Alex Garland", "Ciencia ficción", 3.85, 108, "2020"))
-        lista.add(Pelicula(R.drawable.la_llegada, "Zeros", "Lake Kasdan", "Acción", 3.5, 119, "2017"))
+        lista.add(Pelicula(R.drawable.ex_maquina, "La Máquina", "Christopher Nolan", "Ciencia ficción", 4.3, 169, "2014"))
+        lista.add(Pelicula(R.drawable.extraordinario, "Wonder", "Guillermo del Toro", "Ciencia ficción", 3.65, 123, "2015"))
+        lista.add(Pelicula(R.drawable.forma_agua, "The Shape of Water", "Stephen Chbosky", "Drama", 5.0, 113, "2017"))
+        lista.add(Pelicula(R.drawable.interestelar, "Inter Stellar", "Denis Villeneuve", "Ciencia ficción", 3.95, 116, "2021"))
+        lista.add(Pelicula(R.drawable.jumanji, "Jumanji", "Alex Garland", "Ciencia ficción", 3.85, 108, "2020"))
+        lista.add(Pelicula(R.drawable.la_llegada, "Arrival", "Lake Kasdan", "Acción", 3.5, 119, "2017"))
 
         return lista
     }

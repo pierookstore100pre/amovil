@@ -9,9 +9,9 @@
     tools:context=".VisorImagen">
 
     <ImageView
-        android:ID='avilvPelicula'
+        android:id="@+id/avilvPelicula"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
 
 </LinearLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ListaPeliculas</string>
+    <string name="titulo">Título: %1$s</string>
+    <string name="director">Director: %1$s</string>
+    <string name="genero">Género: %1$s</string>
+    <string name="calificacion">Calificación: %1$s</string>
+    <string name="duracion">Duración: %1$s</string>
+    <string name="fecha">Año: %1$s</string>
+
 </resources>
