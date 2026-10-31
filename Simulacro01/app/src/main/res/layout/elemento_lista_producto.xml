@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/elpIvProducto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/imagen_producto"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/elpTvNombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Nombre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/elpIvProducto"
+            app:layout_constraintTop_toTopOf="@+id/elpIvProducto" />
+
+        <TextView
+            android:id="@+id/elpTvCategoria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Categoría"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/elpTvNombre"
+            app:layout_constraintTop_toBottomOf="@+id/elpTvNombre" />
+
+        <TextView
+            android:id="@+id/elpTvPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S/ 0.00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            app:layout_constraintBottom_toBottomOf="@+id/elpIvProducto"
+            app:layout_constraintStart_toStartOf="@+id/elpTvNombre" />
+
+        <TextView
+            android:id="@+id/elpTvStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stock: 0"
+            app:layout_constraintBaseline_toBaselineOf="@+id/elpTvPrecio"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

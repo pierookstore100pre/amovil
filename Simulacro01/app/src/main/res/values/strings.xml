@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Simulacro01</string>
+    <string name="app_tienda">La Compu de Lolo</string>
+    <string name="bienvenido">Bienvenido, %1$s</string>
+    <string name="productos_destacados">Productos Destacados</string>
+    <string name="subtitulo_productos">Lo último en tecnología y cómputo de alta gama</string>
+    <string name="menu_categorias">Categorías</string>
+    <string name="menu_salir">Salir</string>
+    <string name="imagen_producto">Imagen del producto</string>
+    <string name="banner">Banner La Compu de Lolo</string>
+    <string name="stock_corto">Stock: %1$d</string>
+    <string name="nombre">Producto: %1$s</string>
+    <string name="codigo">Código: %1$s</string>
+    <string name="categoria">Categoría: %1$s</string>
+    <string name="precio">Precio: %1$s</string>
+    <string name="stock">Stock: %1$s</string>
+</resources>
