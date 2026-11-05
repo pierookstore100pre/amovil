@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+id btnAdd
+id btnLogin
+id btnLogout
+id btnProducts
+id btnRegister
+id btnUsers
+id etPassword
+id etRegPass
+id etRegPass2
+id etRegUser
+id etUsername
+id lvData
+id lvProducts
+id rbAdmin
+id rbUser
+id tvRegister
+id tvTitle
+id tvWelcome
+layout activity_admin
+layout activity_login
+layout activity_register
+layout activity_user
+string app_name
+style Theme.TiApp
