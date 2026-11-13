@@ -1,0 +1,5 @@
+edu.iespvigil.practica.test.app-androidTest-0 C:\AndroidProyectos\practica\app\build\generated\res\resValues\androidTest\debug
+edu.iespvigil.practica.test.app-updated_navigation_xml-1 C:\AndroidProyectos\practica\app\build\generated\updated_navigation_xml\debugAndroidTest
+edu.iespvigil.practica.test.app-mergeDebugAndroidTestResources-2 C:\AndroidProyectos\practica\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+edu.iespvigil.practica.test.app-mergeDebugAndroidTestResources-3 C:\AndroidProyectos\practica\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+edu.iespvigil.practica.test.app-debugAndroidTest-4 C:\AndroidProyectos\practica\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

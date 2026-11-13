@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trámites Vigil</string>
+    <string name="login_titulo">Iniciar sesión</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="error_vacio">Ingrese usuario y contraseña</string>
+    <string name="error_credenciales">Usuario o contraseña incorrectos</string>
+    <string name="dashboard_bienvenido">Bienvenido, %1$s</string>
+    <string name="dashboard_tramites">Trámites disponibles</string>
+    <string name="btn_pendientes">Ver trámites pendientes</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
+    <string name="detalle_titulo">Detalle del trámite</string>
+    <string name="detalle_requisitos">Requisitos</string>
+    <string name="detalle_costo">Costo: S/ %1$.2f</string>
+    <string name="btn_iniciar_tramite">Iniciar trámite</string>
+    <string name="tramite_iniciado">Trámite iniciado correctamente</string>
+    <string name="tramite_ya_pendiente">Ya tienes este trámite pendiente</string>
+    <string name="pendientes_titulo">Trámites pendientes</string>
+    <string name="pendientes_vacio">No hay trámites pendientes</string>
+    <string name="item_fecha">Fecha: %1$s</string>
+    <string name="item_estudiante">Estudiante: %1$s</string>
+</resources>

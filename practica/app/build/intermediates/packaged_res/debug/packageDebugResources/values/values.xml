@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanco">#FFFFFF</color>
+    <color name="fondo">#F2F5F9</color>
+    <color name="primary">#1F4E79</color>
+    <color name="primary_dark">#163A5A</color>
+    <color name="texto">#1F2937</color>
+    <color name="texto_gris">#6B7280</color>
+    <string name="app_name">Portal de Trámites</string>
+    <style name="Etiqueta">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto_gris</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+    <style name="Theme.Practica" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

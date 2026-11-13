@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color blanco
+color fondo
+color primary
+color primary_dark
+color texto
+color texto_gris
+drawable bg_estado
+id btnIngresar
+id btnIniciar
+id btnPendientes
+id btnSalir
+id btnVolver
+id etClave
+id etUsuario
+id rvPendientes
+id rvTramites
+id tvCosto
+id tvDescripcion
+id tvEstado
+id tvEstudiante
+id tvFecha
+id tvNombre
+id tvRequisitos
+id tvTitulo
+id tvTramite
+id tvVacio
+layout activity_dashboard
+layout activity_detalle
+layout activity_login
+layout activity_pendientes
+layout item_pendiente
+layout item_tramite
+string app_name
+style Etiqueta
+style Theme.Practica

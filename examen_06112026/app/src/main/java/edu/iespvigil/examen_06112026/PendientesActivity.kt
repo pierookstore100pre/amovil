@@ -1,0 +1,25 @@
+package edu.iespvigil.examen_06112026
+
+import android.os.Bundle
+import android.view.View
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+
+class PendientesActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_pendientes)
+
+        val pendientes = DbHelper(this).listarPendientes()
+
+        val rv = findViewById<RecyclerView>(R.id.rvPendientes)
+        rv.layoutManager = LinearLayoutManager(this)
+        rv.adapter = PendienteAdapter(pendientes)
+
+        findViewById<TextView>(R.id.tvVacio).visibility =
+            if (pendientes.isEmpty()) View.VISIBLE else View.GONE
+    }
+}

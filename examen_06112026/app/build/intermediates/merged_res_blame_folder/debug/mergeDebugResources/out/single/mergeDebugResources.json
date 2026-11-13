@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_item_pendiente.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/item_pendiente.xml"
+    },
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_item_tramite.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/item_tramite.xml"
+    },
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_activity_login.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_activity_pendientes.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/activity_pendientes.xml"
+    },
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_activity_detalle_tramite.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/activity_detalle_tramite.xml"
+    },
+    {
+        "merged": "edu.iespvigil.examen_06112026.app-debug-4:/layout_activity_dashboard.xml.flat",
+        "source": "edu.iespvigil.examen_06112026.app-main-6:/layout/activity_dashboard.xml"
+    }
+]

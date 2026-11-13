@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_activity_pendientes.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/activity_pendientes.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_activity_detalle.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/activity_detalle.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_item_tramite.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/item_tramite.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_activity_login.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/drawable_bg_estado.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/drawable/bg_estado.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_item_pendiente.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/item_pendiente.xml"
+    },
+    {
+        "merged": "edu.iespvigil.practica.app-debug-4:/layout_activity_dashboard.xml.flat",
+        "source": "edu.iespvigil.practica.app-main-6:/layout/activity_dashboard.xml"
+    }
+]
